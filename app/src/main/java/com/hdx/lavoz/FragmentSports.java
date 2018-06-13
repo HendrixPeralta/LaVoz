@@ -18,6 +18,9 @@ public class FragmentSports extends Fragment{
     private RecyclerView recyclerView;
     private ArrayList<NewsModel> newsModelsSport;
 
+    public FragmentSports() {
+    }
+
     @Nullable
     @Override
     public View onCreateView(

@@ -18,6 +18,9 @@ public class FragmentInternational extends Fragment{
     private RecyclerView recyclerView;
     private ArrayList<NewsModel> newsModels;
 
+    public FragmentInternational() {
+    }
+
     @Nullable
     @Override
     public View onCreateView(
@@ -39,10 +42,10 @@ public class FragmentInternational extends Fragment{
 
         newsModels = new ArrayList<>();
 
-        int limit = 100;
+        int limit = 5;
 
         for (int i = 0; i < limit; i++){
-            newsModels.add(new NewsModel("User " +i,
+            newsModels.add(new NewsModel("User International " +i,
                     "Title place holder " + i,
                     "DD/MM/YY" + i,
                     "" + i,

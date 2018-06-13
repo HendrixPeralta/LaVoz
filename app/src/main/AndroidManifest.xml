@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.hdx.lavoz.NewsDataCollector"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"/>
     </application>
 
 </manifest>

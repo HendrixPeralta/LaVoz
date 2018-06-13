@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">LaVoz</string>
+
+        <string-array name="category_array">
+            <item>Deportes</item>
+            <item>Economia</item>
+        </string-array>
+
 </resources>
+
+
+
+
